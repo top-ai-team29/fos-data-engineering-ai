@@ -4,8 +4,11 @@
 
 ## Быстрая навигация
 
-- [Рабочая программа дисциплины](docs/rpd.md)
+- [Рабочая программа дисциплины](docs/rpd.md) — **144 ч / 4 ЗЕ** (50 лек. + 68 лаб. + 4 экз. + 22 СРС)
 - [Карта результатов обучения и КИУ](docs/outcomes-kim-map.md)
+- [Трассировка КРМ 3.0](docs/krm-traceability.md)
+- [Соответствие установочной / оценочной рамке ДПО](docs/ustanovka-requirements-map.md) (критерий чек-листа v2.0)
+- [Карта навигации по Markdown](docs/navigation-map.md)
 - [Модель измерения](docs/measurement-model.md)
 - [Балльно-рейтинговая система](docs/points-rating-system.md)
 - [Методические указания](methodical-guidelines/README.md)
@@ -66,22 +69,22 @@
 
 ## 2. Модель измерения
 
-| № | Модуль / элемент | Компетенция | Индикатор | Уровень | Дескриптор освоения | Форма контроля | КИМ | Ресурсы |
+| № | Модуль / элемент | Компетенция (КРМ 3.0) | Индикатор | Уровень | Дескриптор освоения | Форма контроля | КИМ | Ресурсы |
 |---|---|---|---|:---:|---|---|---|---|
-| 1 | [Модуль 1](M01-module/README.md) | BD-2. Инженерия данных | BD-2.1 | Б | Объясняет роль Data Engineer и переводит запрос потребителя в требования к данным | Текущая / Рубежная | [M01](M01-module/README.md) | [resources](resources/README.md) |
-| 2 | [Модуль 2](M02-module/README.md) | BD-2. Понимание (интерпретация) данных | BD-2.2 | Б | Оценивает источники, режим получения, доступ и контракт источника | Текущая / Рубежная | [M02](M02-module/README.md) | [resources](resources/README.md) |
-| 3 | [Модуль 3](M03-module/README.md) | BD-3. Хранение данных | BD-3.1 | Б/С | Выбирает модель хранения, витрины и правила историзации | Текущая / Рубежная | [M03](M03-module/README.md) | [resources](resources/README.md) |
-| 4 | [Модуль 4](M04-module/README.md) | BD-3. Хранение данных | BD-3.2 | С | Обосновывает архитектуру DWH / Lake / Lakehouse / Fabric / Mesh | Текущая / Рубежная | [M04](M04-module/README.md) | [resources](resources/README.md) |
-| 5 | [Модуль 5](M05-module/README.md) | BD-5. Данные для ИИ | BD-5.1 | С | Выбирает хранилища признаков и данные для MLOps | Текущая / Рубежная | [M05](M05-module/README.md) | [resources](resources/README.md) |
-| 6 | [Модуль 6](M06-module/README.md) | BD-5. Данные для ИИ | BD-5.2 | С/П | Проектирует векторные/гибридные хранилища для RAG; ЛР-1 | Текущая / Рубежная | [M06](M06-module/README.md), [ЛР-1](Project/laboratories/LR-1-hybrid-rag-storage.md) | [resources](resources/README.md) |
-| 7 | [Модуль 7](M07-module/README.md) | BD-4. Интеграция данных | BD-4.1 | С | Обосновывает способ интеграции и ETL/ELT; ЛР-2 | Текущая / Рубежная | [M07](M07-module/README.md), [ЛР-2](Project/laboratories/LR-2-etl-elt-selection.md) | [resources](resources/README.md) |
-| 8 | [Модуль 8](M08-module/README.md) | BD-1. Получение данных | BD-1.3 | С | Оценивает качество данных и решение о публикации | Текущая / Рубежная | [M08](M08-module/README.md) | [resources](resources/README.md) |
-| 9 | [Модуль 9](M09-module/README.md) | BD-4. Интеграция данных | BD-4.2 | П | Проектирует надёжный наблюдаемый конвейер; ЛР-3 | Текущая / Рубежная | [M09](M09-module/README.md), [ЛР-3](Project/laboratories/LR-3-crm-integration.md) | [resources](resources/README.md) |
-| 10 | [Модуль 10](M10-module/README.md) | BD-4 / BD-5 | BD-4.3, BD-5.1 | П | Обосновывает облачный/гибридный контур; ЛР-4 | Текущая / Рубежная | [M10](M10-module/README.md), [ЛР-4](Project/laboratories/LR-4-iot-data-lake.md) | [resources](resources/README.md) |
-| 11 | [Проект](Project/README.md) | несколько BD-* | см. ЛР | С/П | Интегральный контур данных на учебном кейсе (рамка ЛР) | Рубежная | [Project](Project/README.md) | [resources](resources/README.md) |
+| 1 | [Модуль 1](M01-module/README.md) | BD-2. Понимание (интерпретация) данных | BD-2.1 | Б | Объясняет роль Data Engineer и переводит запрос потребителя в требования к данным | Текущая / Рубежная | [M01](M01-module/README.md) | [материалы](M01-module/materials.md), [тесты](resources/test-banks/closed-tests.md) |
+| 2 | [Модуль 2](M02-module/README.md) | BD-2. Понимание (интерпретация) данных | BD-2.2 | Б | Оценивает источники, режим получения, доступ и контракт источника | Текущая / Рубежная | [M02](M02-module/README.md) | [материалы](M02-module/materials.md), [тесты](resources/test-banks/closed-tests.md) |
+| 3 | [Модуль 3](M03-module/README.md) | BD-3. Хранение данных | BD-3.1 | Б/С | Выбирает модель хранения, витрины и правила историзации | Текущая / Рубежная | [M03](M03-module/README.md) | [материалы](M03-module/materials.md), [тесты](resources/test-banks/closed-tests.md) |
+| 4 | [Модуль 4](M04-module/README.md) | BD-3. Хранение данных | BD-3.2 | С | Обосновывает архитектуру DWH / Lake / Lakehouse / Fabric / Mesh (в т.ч. неструктурированный слой) | Текущая / Рубежная | [M04](M04-module/README.md) | [материалы](M04-module/materials.md), [трассировка КРМ](docs/krm-traceability.md) |
+| 5 | [Модуль 5](M05-module/README.md) | BD-5. Дополнительные технологии организации инфраструктуры больших данных | BD-5.1 | С | Выбирает хранилища признаков и данные для MLOps | Текущая / Рубежная | [M05](M05-module/README.md) | [материалы](M05-module/materials.md), [тесты](resources/test-banks/closed-tests.md) |
+| 6 | [Модуль 6](M06-module/README.md) | BD-5. Дополнительные технологии организации инфраструктуры больших данных | BD-5.2 | С/П | Проектирует векторные/гибридные хранилища для RAG; ЛР-1 | Текущая / Рубежная | [M06](M06-module/README.md), [ЛР-1](Project/laboratories/LR-1-hybrid-rag-storage.md) | [ЛР-1](Project/laboratories/methodical-guidelines/LR-1.md) |
+| 7 | [Модуль 7](M07-module/README.md) | BD-4. Обработка больших данных | BD-4.1 | С | Обосновывает способ интеграции и ETL/ELT; ЛР-2 | Текущая / Рубежная | [M07](M07-module/README.md), [ЛР-2](Project/laboratories/LR-2-etl-elt-selection.md) | [ЛР-2](Project/laboratories/methodical-guidelines/LR-2.md) |
+| 8 | [Модуль 8](M08-module/README.md) | BD-1. Предварительный анализ данных | BD-1.3 | С | Оценивает качество данных и решение о публикации | Текущая / Рубежная | [M08](M08-module/README.md) | [материалы](M08-module/materials.md), [тесты](resources/test-banks/closed-tests.md) |
+| 9 | [Модуль 9](M09-module/README.md) | BD-4. Обработка больших данных | BD-4.2 | П | Проектирует надёжный наблюдаемый конвейер; ЛР-3 | Текущая / Рубежная | [M09](M09-module/README.md), [ЛР-3](Project/laboratories/LR-3-crm-integration.md) | [датасеты](resources/datasets/README.md), [шаблон](resources/software/python-libs/lr3_record_matching_template.py) |
+| 10 | [Модуль 10](M10-module/README.md) | BD-4. Обработка больших данных; BD-5. Дополнительные технологии… | BD-4.3, BD-5.1 | П | Обосновывает облачный/гибридный контур; ЛР-4 | Текущая / Рубежная | [M10](M10-module/README.md), [ЛР-4](Project/laboratories/LR-4-iot-data-lake.md) | [ЛР-4](Project/laboratories/methodical-guidelines/LR-4.md), [IoT sample](resources/datasets/iot_telemetry_sample.csv) |
+| 11 | [Проект](Project/README.md) | несколько BD-* | см. ЛР | С/П | Интегральный контур данных на учебном кейсе (рамка ЛР) | Рубежная | [Project](Project/README.md) | [Project](Project/README.md) |
 | 12 | [Экзамен](Exam/README.md) | несколько BD-* | см. банк И-* | С/П | Связывает результаты модулей в целостное инженерное решение | Промежуточная | [Exam](Exam/README.md) | [интеграционный банк](resources/problem-banks/integrated-control-questions.md) |
 
-Индикаторы КИМ сверены с [data/krm-v3.0.xlsx](data/krm-v3.0.xlsx).
+Названия компетенций — дословно по [data/krm-v3.0.xlsx](data/krm-v3.0.xlsx). Пояснения к привязке индикаторов (в т.ч. BD-3.2) — в [docs/krm-traceability.md](docs/krm-traceability.md). Уровни ЛР-3 и ЛР-4 — **П** по методичкам [LR-3](Project/laboratories/methodical-guidelines/LR-3.md) / [LR-4](Project/laboratories/methodical-guidelines/LR-4.md).
 
 ## 3. Контрольно-измерительные материалы
 

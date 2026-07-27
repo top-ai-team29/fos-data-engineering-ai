@@ -1,6 +1,6 @@
 # ЛР-3. CRM-интеграция и record matching
 
-**Связь с модулем:** [M09](../../M09-module/materials.md). **КИУ:** BD-4 / BD-4.2, продвинутый уровень. **Трудоёмкость:** 8 часов.
+**Связь с модулем:** [M09](../../M09-module/materials.md). **КИУ:** BD-4 / BD-4.2, продвинутый уровень. **Трудоёмкость:** 16 часов.
 
 > КИМ-карточка (что сдавать). Развёрнутая постановка — в [полной методичке](methodical-guidelines/LR-3.md). Учебные CSV: [datasets](../../resources/datasets/README.md). Шаблон кода: [lr3_record_matching_template.py](../../resources/software/python-libs/lr3_record_matching_template.py).
 

@@ -103,7 +103,8 @@
 
 | Файл | Роль |
 |---|---|
-| [integrated-control-questions.md](../resources/problem-banks/integrated-control-questions.md) | банк вопросов и ожидаемых ответов |
-| [open-and-exam-register.md](../resources/problem-banks/open-and-exam-register.md) | канонический реестр (в т.ч. экзаменационный раздел) |
+| [integrated-control-questions.md](../resources/problem-banks/integrated-control-questions.md) | банк вопросов (студентская версия) |
+| [teacher/…/integrated-control-questions.md](../resources/problem-banks/teacher/integrated-control-questions.md) | эталоны ответов для комиссии |
+| [open-and-exam-register.md](../resources/problem-banks/open-and-exam-register.md) | канонический реестр без эталонов; эталоны — в `teacher/` |
 | [points-rating-system.md](../docs/points-rating-system.md) | вклад экзамена в 100 баллов дисциплины |
 | [commission-notes.md](commission-notes.md) | краткая памятка комиссии на экзамене |

@@ -80,14 +80,15 @@ def load_crm_a(path: Path) -> list[Record]:
 
 
 def load_crm_b(path: Path) -> list[Record]:
+    """Поля CRM B намеренно отличаются от CRM A (учебный schema mismatch)."""
     rows: list[Record] = []
     with path.open(encoding="utf-8") as f:
         for row in csv.DictReader(f):
             rows.append(
                 Record(
                     source="B",
-                    record_id=row["client_code"],
-                    name=row["fio"],
+                    record_id=row["crm_id"],
+                    name=row["client_name"],
                     phone=row.get("mobile", ""),
                     email=row.get("mail", ""),
                 )
