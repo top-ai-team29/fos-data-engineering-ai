@@ -1,0 +1,28 @@
+canonical name examples:
+  'Иванов И. И.' -> 'иванов и и'
+  'Иванов Иван Иванович' -> 'иванов иван иванович'
+  'John Smith' -> 'john smith'
+
+candidate matches (score >= 0.4):
+  A-001 ↔ B-101  score=1.00  zone=auto
+  A-001 ↔ B-104  score=0.60  zone=manual-review
+  A-002 ↔ B-102  score=0.80  zone=auto
+  A-002 ↔ B-108  score=0.70  zone=auto
+  A-003 ↔ B-103  score=0.80  zone=auto
+  A-003 ↔ B-109  score=0.60  zone=manual-review
+  A-004 ↔ B-101  score=0.50  zone=manual-review
+  A-004 ↔ B-104  score=0.80  zone=auto
+  A-005 ↔ B-111  score=0.40  zone=manual-review
+  A-006 ↔ B-106  score=0.50  zone=manual-review
+  A-007 ↔ B-107  score=0.60  zone=manual-review
+  A-008 ↔ B-102  score=0.50  zone=manual-review
+  A-008 ↔ B-108  score=0.50  zone=manual-review
+  A-009 ↔ B-103  score=0.50  zone=manual-review
+  A-009 ↔ B-109  score=0.50  zone=manual-review
+  A-010 ↔ B-110  score=0.50  zone=manual-review
+  A-011 ↔ B-111  score=0.50  zone=manual-review
+  A-012 ↔ B-112  score=0.50  zone=manual-review
+  A-013 ↔ B-113  score=0.50  zone=manual-review
+  A-014 ↔ B-101  score=0.60  zone=manual-review
+  A-014 ↔ B-104  score=0.60  zone=manual-review
+  A-015 ↔ B-115  score=0.50  zone=manual-review

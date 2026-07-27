@@ -41,7 +41,9 @@
 
 - [Рабочая программа дисциплины](rpd.md).
 - [Модель измерения](measurement-model.md).
+- [Трассировка КРМ 3.0](krm-traceability.md).
 - [Балльно-рейтинговая система](points-rating-system.md) и [шкала итоговых отметок](final-grade-scale.md).
-- [Закрытые тесты](../resources/test-banks/closed-tests.md), [рубежный контроль](../resources/problem-banks/rubezhny-control-questions.md) и [интеграционный контроль](../resources/problem-banks/integrated-control-questions.md).
+- [Закрытые тесты](../resources/test-banks/closed-tests.md) (ключи — [teacher](../resources/test-banks/teacher/closed-tests-with-keys.md)), [рубежный контроль](../resources/problem-banks/rubezhny-control-questions.md) и [интеграционный контроль](../resources/problem-banks/integrated-control-questions.md).
 - [Лабораторные работы](../Project/laboratory-works.md) и [критерии оценивания](../Project/assessment-criteria.md).
 - [Исходная книга КРМ](../data/README.md) и [реестр источников](../other/source-register.md).
+- [Соответствие установочной рамке ДПО](ustanovka-requirements-map.md) и [карта навигации](navigation-map.md).

@@ -38,4 +38,6 @@
 - [Критерии оценивания](assessment-criteria.md)
 - [Вопросы к защите ЛР](../resources/problem-banks/lab-defence-questions.md)
 - [Балльно-рейтинговая система](../docs/points-rating-system.md)
+- [Соответствие установочной рамке ДПО](../docs/ustanovka-requirements-map.md)
+- [Навигация по документам](../docs/navigation-map.md)
 - [КРМ 3.0 и роли](../data/README.md)
